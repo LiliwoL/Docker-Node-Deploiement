@@ -1,0 +1,26 @@
+version: '3'
+
+services:
+  node-server:
+    image: node:14
+    container_name: node-server-container
+    working_dir: /app
+    volumes:
+      - ./backend:/app
+    ports:
+      - "800:80"
+    environment:
+      NODE_ENV: production
+    command: "npm start"
+
+  sqlite-db:
+    image: sqlite:latest
+    container_name: sqlite-db-container
+    volumes:
+      - ./data:/data
+    command: "echo 'SQLite container running'"
+
+networks:
+  default:
+    external:
+      name: node_network

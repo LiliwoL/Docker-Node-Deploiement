@@ -1,0 +1,403 @@
+{
+	"info": {
+		"_postman_id": "eb0b9ee3-8645-4e8b-8e6b-f0b94d9f2bc0",
+		"name": "B2 TP Protocol HTTP",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "2209621",
+		"_collection_link": "https://orange-astronaut-204458.postman.co/workspace/My-Workspace~8319e3bc-2ba7-4bd8-8f46-571e7523c6f5/collection/2209621-eb0b9ee3-8645-4e8b-8e6b-f0b94d9f2bc0?action=share&source=collection_link&creator=2209621"
+	},
+	"item": [
+		{
+			"name": "Etape 01",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "User-Agent",
+						"value": "{{User-Agent}}",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{HOST_IP}}:{{HOST_PORT}}/etape1",
+					"host": [
+						"{{HOST_IP}}"
+					],
+					"port": "{{HOST_PORT}}",
+					"path": [
+						"etape1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Etape 02",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "User-Agent",
+						"value": "{{User-Agent}}",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{HOST_IP}}:{{HOST_PORT}}/etape2?nom=nicolas",
+					"host": [
+						"{{HOST_IP}}"
+					],
+					"port": "{{HOST_PORT}}",
+					"path": [
+						"etape2"
+					],
+					"query": [
+						{
+							"key": "nom",
+							"value": "nicolas"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Etape 03",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "User-Agent",
+						"value": "{{User-Agent}}",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{HOST_IP}}:{{HOST_PORT}}/etape3",
+					"host": [
+						"{{HOST_IP}}"
+					],
+					"port": "{{HOST_PORT}}",
+					"path": [
+						"etape3"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Etape 03 DELETE",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "User-Agent",
+						"value": "{{User-Agent}}",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{HOST_IP}}:{{HOST_PORT}}/etape3",
+					"host": [
+						"{{HOST_IP}}"
+					],
+					"port": "{{HOST_PORT}}",
+					"path": [
+						"etape3"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Etape 04",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "User-Agent",
+						"value": "{{User-Agent}}",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{HOST_IP}}:{{HOST_PORT}}/etape4",
+					"host": [
+						"{{HOST_IP}}"
+					],
+					"port": "{{HOST_PORT}}",
+					"path": [
+						"etape4"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Etape 05",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "User-Agent",
+						"value": "{{User-Agent}}",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{HOST_IP}}:{{HOST_PORT}}/etape5",
+					"host": [
+						"{{HOST_IP}}"
+					],
+					"port": "{{HOST_PORT}}",
+					"path": [
+						"etape5"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Etape 06",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "User-Agent",
+						"value": "{{User-Agent}}",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{HOST_IP}}:{{HOST_PORT}}/etape6",
+					"host": [
+						"{{HOST_IP}}"
+					],
+					"port": "{{HOST_PORT}}",
+					"path": [
+						"etape6"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Etape 07",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "User-Agent",
+						"value": "{{User-Agent}}",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{HOST_IP}}:{{HOST_PORT}}/etape7",
+					"host": [
+						"{{HOST_IP}}"
+					],
+					"port": "{{HOST_PORT}}",
+					"path": [
+						"etape7"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Etape 08",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "User-Agent",
+						"value": "{{User-Agent}}",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{HOST_IP}}:{{HOST_PORT}}/etape8",
+					"host": [
+						"{{HOST_IP}}"
+					],
+					"port": "{{HOST_PORT}}",
+					"path": [
+						"etape8"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Etape 09",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "User-Agent",
+						"value": "{{User-Agent}}",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{HOST_IP}}:{{HOST_PORT}}/etape9",
+					"host": [
+						"{{HOST_IP}}"
+					],
+					"port": "{{HOST_PORT}}",
+					"path": [
+						"etape9"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Etape 10",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "User-Agent",
+						"value": "{{User-Agent}}",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{HOST_IP}}:{{HOST_PORT}}/etape10",
+					"host": [
+						"{{HOST_IP}}"
+					],
+					"port": "{{HOST_PORT}}",
+					"path": [
+						"etape10"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "admin parameters",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "{{ADMIN_PASS}}",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "root",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "User-Agent",
+						"value": "{{User-Agent}}",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{HOST_IP}}:{{HOST_PORT}}/admin/parametres",
+					"host": [
+						"{{HOST_IP}}"
+					],
+					"port": "{{HOST_PORT}}",
+					"path": [
+						"admin",
+						"parametres"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "admin reset",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "{{ADMIN_PASS}}",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "root",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "User-Agent",
+						"value": "{{User-Agent}}",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{HOST_IP}}:{{HOST_PORT}}/admin/reset",
+					"host": [
+						"{{HOST_IP}}"
+					],
+					"port": "{{HOST_PORT}}",
+					"path": [
+						"admin",
+						"reset"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "HOST_IP",
+			"value": "127.0.0.1",
+			"type": "string"
+		},
+		{
+			"key": "HOST_PORT",
+			"value": "800",
+			"type": "string"
+		},
+		{
+			"key": "User-Agent",
+			"value": "FenelonBTSSIO-UserAgent-LaRochelle v1.0",
+			"type": "string"
+		},
+		{
+			"key": "ADMIN_PASS",
+			"value": "Azertysio-01",
+			"type": "string"
+		}
+	]
+}
