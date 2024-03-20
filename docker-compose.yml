@@ -1,26 +1,24 @@
-version: '3'
+version: "3.8"
 
 services:
-  node-server:
-    image: node:14
-    container_name: node-server-container
-    working_dir: /app
-    volumes:
-      - ./backend:/app
+  node-pokedex:
+    # Nom du container
+    container_name: node-pokedex
+
+    # Ports
     ports:
-      - "800:80"
-    environment:
-      NODE_ENV: production
-    command: "npm start"
+      - "800:5001"
 
-  sqlite-db:
-    image: sqlite:latest
-    container_name: sqlite-db-container
+    # Image à charger dans le container
+    # https://hub.docker.com/_/node
+    image: node:latest
+
+    # Volumes
     volumes:
-      - ./data:/data
-    command: "echo 'SQLite container running'"
+      - ./app:/app
 
-networks:
-  default:
-    external:
-      name: node_network
+    # Répertoire de travail
+    working_dir: /app
+
+    # Commande à lancer
+    command: sh -c "npm install && node index.js"
